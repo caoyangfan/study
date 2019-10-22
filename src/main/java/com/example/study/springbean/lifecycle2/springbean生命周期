@@ -1,0 +1,10 @@
+spring生命周期的过程为：
+1. 先执行Bean的构造函数
+2. 通过XML配置文件注入相应的属性值
+3. JSR250 @PostConstruct 注解的方法
+4. 执行InitializingBean接口提供的afterPropertiesSet()方法
+5. 执行配置文件提供的init-method方法
+6. 使用已经初始化完毕的Bean对象
+7. 执行@PreDestroy注释的方法
+8. 执行DisposableBean接口提供的destroy方法（销毁）
+9. 执行配置文件提供的destroy-method方法（销毁）

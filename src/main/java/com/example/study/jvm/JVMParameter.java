@@ -32,7 +32,7 @@ package com.example.study.jvm;
  * -Xms1024m -Xmx1024m  (Xms Xmx并不属于X参数,而是属于XX参数)
  * -Xms 等价于 -XX:InitialHeapSize
  * -Xmx 等价于 -XX:MaxHeapSize
- *
+ * java -XX:+PrintFlagsInitial 查看盘点家族
  **/
 public class JVMParameter {
 }
