@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * DCL 双端检索模式
+ *  单例
  *
  * @author: caoyangfan
  * @create: 2019-11-14 11:03
